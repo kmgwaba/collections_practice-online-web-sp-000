@@ -19,3 +19,12 @@ end
 def reverse_array(arr)
   arr.reverse 
 end
+
+def kesha_maker(array)
+  i = 0
+  while i < array.length
+    yield(array[i])
+    i = i + 1
+  end 
+  array
+end
