@@ -17,5 +17,5 @@ def swap_elements(array)
 end
 
 def reverse_array(arr)
-  arr.sort_by { |word| -word.length }
+  arr.sort.reverse
 end
